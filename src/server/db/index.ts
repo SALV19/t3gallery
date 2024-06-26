@@ -6,3 +6,6 @@ import * as schema from "./schema";
 
 // Use this object to send drizzle queries to your DB
 export const db = drizzle(sql, {schema});
+
+// npm run db:push
+// npm run db:studio
