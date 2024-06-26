@@ -18,7 +18,10 @@ const mockImgs = mockURLs.map((url, index) => ({
   url
 }))
 
-export default function HomePage() {
+export default async function HomePage() {
+
+  // const post = await db.query.posts.findMany();
+
   return (
     <main className="flex min-h-screen flex-col items-center justify-center "> 
       <div className="flex flex-wrap gap-4">{
